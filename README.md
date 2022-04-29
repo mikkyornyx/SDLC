@@ -1,5 +1,5 @@
 # SDLC library of security controls and practices
-
+| - | - | - | - | - |
 
 | Name  | Description | Phase | Type | Function |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -11,3 +11,4 @@
 | Design  | Design step takes Architecture as an input and creates product detailed design according to industry best practices. Output Design should be detailed enough for Threat Modelling evaluation.  | Plan | Technical | Preventive |
 | Threat modelling  | Threat modelling along with Design, Compliance & Risk assessment and Architecture phases is residing in the recurrent "bubble". Threat modelling is a security process which identifies, categorizes and analyzes threats and vulnerabilities applicable for the product (application) being built. Output of this step is an actual model - design/diagram of the system, list of threats and controls for mitigation. There are multiple methodologies available for threat modelling, overall idea of this step is to identify gaps and also places where applicable countermeasures have greatest effect. In case it is not possible to mitigate risks to tolerable extent, Design and/or Architecture need to be fixed. In a way, Threat Modelling is a control gate of Planning phase.  | Plan | Technical | Preventive |
 | CI/CD pipeline design | CI/CD pipeline design is an initial design of SDLC and related pipeline based on service Compliance Requirements, Threat Modelling, Design and other software requirements. | Plan | Administrative | Preventive |
+| - | - | - | - | - |
